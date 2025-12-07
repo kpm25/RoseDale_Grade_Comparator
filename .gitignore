@@ -1,0 +1,19 @@
+# --- Virtual Environment and Python Files ---
+.venv/
+venv/
+__pycache__/
+*.pyc
+.idea/  # Ignore IDE configuration
+
+# --- Excel Files (LIVE DATA) ---
+*.xlsx          # Ignore all Excel workbooks (input/output)
+
+# --- PyInstaller and Build Output Files ---
+*.exe           # The final executable file
+*.spec          # The PyInstaller specification file
+dist/           # The final deployment directory
+build/          # The temporary build directory
+
+# --- Temporary/Local Files ---
+grade_comparator_prev*.py  # Ignore all old backup scripts
+notes.txt
