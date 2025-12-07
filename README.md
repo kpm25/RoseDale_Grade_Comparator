@@ -69,7 +69,7 @@ pyinstaller --onefile --console --name "Grade_Comparator_Tool" grade_comparator.
 ### 3.2. Deployment Files
 
 The new executable will be found in the **`dist`** folder. The complete deployment kit includes:
----
+
 The Run_Grade_Comparison_Tool.bat contents:
 
 @echo off
@@ -82,17 +82,9 @@ echo Running Grade Comparison Tool...
 echo.
 echo Press any key to close this window and check the output file.
 pause > nul
+---
 
-Known Data Handling
-The script includes several robust features to ensure accurate processing:
-
-Grade Scaling: Automatically converts decimal grades (e.g., 0.85) to percentages to ensure accurate comparison.
-
-Whitespace Cleanup: Strips leading/trailing spaces from column headers, preventing KeyError crashes.
-
-Flexible Date Parsing: Accepts dates in file names with single or double digits (e.g., 2Dec2025 or 12Dec2025).
-
-Chronological Check: Validates that the older file has an equal or lower number of graded assessments than the newer file.
+ 
 
 
 If you need any assistance with the Git commands to commit this file to your repository, just let me know!
